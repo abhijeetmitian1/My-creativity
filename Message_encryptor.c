@@ -28,7 +28,7 @@ int main()
     encrypt_msg[2*i+1]=(char) (31+q);
   }
   encrypt_msg[eml]='\0';
-  printf("Your encrypted message is -->%s\n\n", encrypt_msg);
+  printf("Your encrypted message is --> %s\n\n", encrypt_msg);
   printf("If you want to Decrypt a Encrypted Message (of this service) Then use our Decryption service\n");
   printf("Thank you for using our service Hope you like it.\n");
 
