@@ -1,0 +1,151 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+float *percent_present_and_variance(int joined[], int left[]);
+
+struct student
+{
+    char name[100];
+    char event[20];
+    int time;
+} list[200];
+struct finallist
+{
+    char name[100];
+    int notj;  // notj -> No. of times Joined.
+    int notl;  // notl -> No. of times Left.
+    float pp;  // pp -> Percentage persent.
+    float var; // variance of slot of presence.
+} fl[200];
+int main()
+{
+    FILE *fp;
+    fp = fopen("originalsample.csv", "r");
+    char buff[500];
+    int row = 0;
+    fgets(buff, 500, fp);
+    for (int i = 0; !feof(fp); i++)
+    {
+        fgets(buff, 500, fp);
+        char *token = strtok(buff, ",");
+        for (int j = 0; token != NULL; j++)
+        {
+            if (j == 0)
+            {
+                strcpy(list[i].name, token);
+            }
+            else if (j == 1)
+            {
+                strcpy(list[i].event, token);
+            }
+            else if (j == 3)
+            {
+                list[i].time = ((((int)token[1] - 48)) * 60) + ((int)token[3] - 48) * 10 + ((int)token[4] - 48);
+            }
+            token = strtok(NULL, ",");
+        }
+        row++;
+    }
+    int finalrow = 0;
+    for (int p = 0, k = 0; p < row; p++)
+    {
+        int bol = 0;
+        for (int x = 0; x < p; x++)
+        {
+            if (!strcmp(list[x].name, list[p].name))
+            {
+                bol = 1;
+                break;
+            }
+        }
+        if (bol == 0)
+        {
+            finalrow++;
+            strcpy(fl[k].name, list[p].name);
+            int join[50] = {0};
+            int left[50] = {0};
+            for (int q = p, j = 0, l = 0; q <= row; q++)
+            {
+                if (!strcmp(list[p].name, list[q].name))
+                {
+                    if ((!strcmp(list[q].event, "Joined")) || (!strcmp(list[q].event,"Joined before")))
+                    {
+                        join[j] = list[q].time;
+                        j++;
+                    }
+                    else
+                    {
+                        left[l] = list[q].time;
+                        l++;
+                    }
+                }
+            }
+            float *ptr;
+            ptr = percent_present_and_variance(join, left);
+            fl[k].notj = *ptr;
+            fl[k].notl = *(ptr + 1);
+            fl[k].pp = *(ptr + 2);
+            fl[k].var = *(ptr + 3);
+            k++;
+        }
+    }
+
+    printf("USER -> Name of USER\nN.O.T.J -> No. of times joined\nN.O.T.L -> No. of times left\n%% D.P -> %%age of duration present\nT.V.O.P.S -> Time variance of Presence slots.\n\n");
+    for (int b = 0; b < finalrow; b++)
+    {
+        printf("USER -> %s\nN.O.T.J -> %d\nN.O.T.L -> %d\n%% D.P -> %0.2f %%\nT.V.O.P.S -> %0.2f\n\n", fl[b].name, (int)fl[b].notj, (int)fl[b].notl, fl[b].pp, fl[b].var);
+    }
+    return 0;
+}
+
+float *percent_present_and_variance(int joined[], int left[])
+{
+    static float result[4];
+    int join = 0, lefted = 0;
+    for (int i = 0; joined[i] != 0; i++)
+    {
+        join++;
+    }
+    int present_time_slots[join];
+    float percentage_persent, variance, total_present_time = 0, average_present_slot;
+    int class_time = 96;
+    for (int i = 0; left[i] != 0; i++)
+    {
+        lefted++;
+    }
+    for (int t = 0; t < join; t++)
+    {
+        if (left[t] == 0)
+        {
+            left[t] = 268;
+        }
+    }
+    for (int x = 0; x < join; x++)
+    {
+        present_time_slots[x] = left[x] - joined[x];
+        total_present_time += (float)present_time_slots[x];
+    }
+    percentage_persent = (total_present_time / class_time) * 100;
+    average_present_slot = total_present_time / join;
+    float square_mean_deviation = 0;
+    for (int p = 0; p < join; p++)
+    {
+        float f = pow(((float)present_time_slots[p] - average_present_slot), 2);
+        square_mean_deviation += f;
+    }
+    if (join == 1)
+    {
+        variance = square_mean_deviation / join;
+    }
+    else
+    {
+        variance = square_mean_deviation / (join - 1);
+    }
+    result[0] = (float)join;
+    result[1] = (float)lefted;
+    result[2] = percentage_persent;
+    result[3] = variance;
+
+    return result;
+}

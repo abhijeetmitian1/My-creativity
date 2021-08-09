@@ -1,0 +1,455 @@
+USER -> Name of USER
+N.O.T.J -> No. of times joined
+N.O.T.L -> No. of times left
+% D.P -> %age of duration present
+T.V.O.P.S -> Time variance of Presence slots.
+
+USER -> Subrata Nandi
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 93.75 %
+T.V.O.P.S -> 1250.00
+
+USER -> SANGAM KUMAR
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 117.71 %
+T.V.O.P.S -> 2664.50
+
+USER -> Harshit Surana
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 94.79 %
+T.V.O.P.S -> 0.00
+
+USER -> ASIM SEN
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 94.79 %
+T.V.O.P.S -> 0.00
+
+USER -> ANKIT VISHWAKARMA
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 92.71 %
+T.V.O.P.S -> 3784.50
+
+USER -> POPURI CHARAN
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 92.71 %
+T.V.O.P.S -> 40.50
+
+USER -> TANU PRIYA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 93.75 %
+T.V.O.P.S -> 0.00
+
+USER -> AQUIB ZAMAN
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 93.75 %
+T.V.O.P.S -> 0.00
+
+USER -> VISHAL MAHAVAR
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 109.38 %
+T.V.O.P.S -> 2812.50
+
+USER -> DEEPAK KUMAR
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 63.54 %
+T.V.O.P.S -> 0.00
+
+USER -> DEVA VENKATA SAI RITHISH PUNNA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 92.71 %
+T.V.O.P.S -> 0.00
+
+USER -> TURPATI SAI BALAJI
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 91.67 %
+T.V.O.P.S -> 0.00
+
+USER -> ISHAN DUTTA
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 73.96 %
+T.V.O.P.S -> 840.50
+
+USER -> TANMOY GORAI
+N.O.T.J -> 6
+N.O.T.L -> 5
+% D.P -> 90.63 %
+T.V.O.P.S -> 90.30
+
+USER -> NUTETI USHODAYA
+N.O.T.J -> 3
+N.O.T.L -> 1
+% D.P -> 111.46 %
+T.V.O.P.S -> 1577.33
+
+USER -> AYUSH KUMAR GUPTA
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 55.21 %
+T.V.O.P.S -> 0.00
+
+USER -> Swarnabh Paul
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 90.63 %
+T.V.O.P.S -> 0.00
+
+USER -> KSHITIJ SHRIVASTAVA
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 110.42 %
+T.V.O.P.S -> 2312.00
+
+USER -> ATUL KUMAR
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 80.21 %
+T.V.O.P.S -> 2964.50
+
+USER -> GULLA PRAMILA RATNA KUMARI
+N.O.T.J -> 3
+N.O.T.L -> 1
+% D.P -> 110.42 %
+T.V.O.P.S -> 185.33
+
+USER -> PRIETY DAS
+N.O.T.J -> 2
+N.O.T.L -> 2
+% D.P -> 20.83 %
+T.V.O.P.S -> 128.00
+
+USER -> PRASANN GUPTA
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 88.54 %
+T.V.O.P.S -> 1624.50
+
+USER -> NEELAPU ASHA RISHITHA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 89.58 %
+T.V.O.P.S -> 0.00
+
+USER -> SOHIT KUMAR SINGH
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 88.54 %
+T.V.O.P.S -> 0.00
+
+USER -> SHASHWAT GUPTA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 88.54 %
+T.V.O.P.S -> 0.00
+
+USER -> Satyam Vivek
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 88.54 %
+T.V.O.P.S -> 0.00
+
+USER -> ABANTIKA BASU
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 88.54 %
+T.V.O.P.S -> 0.00
+
+USER -> VORUGANTI GAYATRI DEEPSHIKHA
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 106.25 %
+T.V.O.P.S -> 2312.00
+
+USER -> ANKITA SINGH
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 69.79 %
+T.V.O.P.S -> 0.00
+
+USER -> POONAM KISKU
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 88.54 %
+T.V.O.P.S -> 0.00
+
+USER -> ALLU KUMARA SAI SUBRAHMANYAM
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 108.33 %
+T.V.O.P.S -> 2048.00
+
+USER -> VIKAS KUMAR
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 98.96 %
+T.V.O.P.S -> 2664.50
+
+USER -> SUBHADIP RUDRA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 87.50 %
+T.V.O.P.S -> 0.00
+
+USER -> GUDEY SONALI
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 87.50 %
+T.V.O.P.S -> 0.00
+
+USER -> AKASH MAJHI
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 87.50 %
+T.V.O.P.S -> 0.00
+
+USER -> SUSHANTA SAREN
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 66.67 %
+T.V.O.P.S -> 0.00
+
+USER -> UDDAGIRI SAI VENKAT
+N.O.T.J -> 3
+N.O.T.L -> 1
+% D.P -> 93.75 %
+T.V.O.P.S -> 511.00
+
+USER -> VIPUL DEV HEMBROM
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 85.42 %
+T.V.O.P.S -> 0.00
+
+USER -> ABHISHEK BASU
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 84.38 %
+T.V.O.P.S -> 0.00
+
+USER -> SUBHASH KUMAR
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 101.04 %
+T.V.O.P.S -> 1860.50
+
+USER -> ARKA SETH
+N.O.T.J -> 5
+N.O.T.L -> 3
+% D.P -> 77.08 %
+T.V.O.P.S -> 248.20
+
+USER -> DODDA CHANDU
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 96.88 %
+T.V.O.P.S -> 1984.50
+
+USER -> ROHITH CHEKURI
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 81.25 %
+T.V.O.P.S -> 0.00
+
+USER -> ADITYA GUPTA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 81.25 %
+T.V.O.P.S -> 0.00
+
+USER -> SHADAB AHMAD
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 81.25 %
+T.V.O.P.S -> 0.00
+
+USER -> BORRA DAIVALEELA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 81.25 %
+T.V.O.P.S -> 0.00
+
+USER -> Sanipalli Renuka
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 97.92 %
+T.V.O.P.S -> 1682.00
+
+USER -> RAM SHARMA
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 42.71 %
+T.V.O.P.S -> 0.00
+
+USER -> MADDU AMAR SRI LAKSHMI PRASANNA TRINATH
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 18.75 %
+T.V.O.P.S -> 0.00
+
+USER -> Sreeshanth Ganduri
+N.O.T.J -> 2
+N.O.T.L -> 0
+% D.P -> 94.79 %
+T.V.O.P.S -> 1404.50
+
+USER -> JAMPALA HARIKA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 75.00 %
+T.V.O.P.S -> 0.00
+
+USER -> ANKITA MANDAL
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 36.46 %
+T.V.O.P.S -> 0.00
+
+USER -> ARIJIT BISWAS
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 73.96 %
+T.V.O.P.S -> 0.00
+
+USER -> NALLA YOSHITA
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 69.79 %
+T.V.O.P.S -> 480.50
+
+USER -> PRAVEEN KUMAR RAVINDRAN SIBANIRANI
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 69.79 %
+T.V.O.P.S -> 1984.50
+
+USER -> ARVIND SAHU
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 65.63 %
+T.V.O.P.S -> 0.00
+
+USER -> BOKKA SREE
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 67.71 %
+T.V.O.P.S -> 0.00
+
+USER -> BISHWAJIT GHOSH
+N.O.T.J -> 2
+N.O.T.L -> 1
+% D.P -> 50.00 %
+T.V.O.P.S -> 288.00
+
+USER -> PUTHA REDDY
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 54.17 %
+T.V.O.P.S -> 0.00
+
+USER -> SAGAR AGARWAL
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 47.92 %
+T.V.O.P.S -> 0.00
+
+USER -> KANCHARLA SASHIDHAR CHOWDARY
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 46.88 %
+T.V.O.P.S -> 0.00
+
+USER -> PRAKHAR SRIVASTAVA
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 45.83 %
+T.V.O.P.S -> 0.00
+
+USER -> ANUPAM DAS
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 34.38 %
+T.V.O.P.S -> 0.00
+
+USER -> SUDIPAN DATTA
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 32.29 %
+T.V.O.P.S -> 0.00
+
+USER -> AMAN KUMAR
+N.O.T.J -> 3
+N.O.T.L -> 0
+% D.P -> 72.92 %
+T.V.O.P.S -> 33.33
+
+USER -> BHUKYA RAHUL NAIK
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 14.58 %
+T.V.O.P.S -> 0.00
+
+USER -> SUDEV DHALI
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 20.83 %
+T.V.O.P.S -> 0.00
+
+USER -> SUMAN SAHU
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 20.83 %
+T.V.O.P.S -> 0.00
+
+USER -> DEBOLINA CHOWDHURY
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 19.79 %
+T.V.O.P.S -> 0.00
+
+USER -> Anurag Mondal
+N.O.T.J -> 1
+N.O.T.L -> 1
+% D.P -> 6.25 %
+T.V.O.P.S -> 0.00
+
+USER -> Nikhil Kumar
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 18.75 %
+T.V.O.P.S -> 0.00
+
+USER -> SATYAM YADAV
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 14.58 %
+T.V.O.P.S -> 0.00
+
+USER -> ANSHIKA CHAUDHARY
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 13.54 %
+T.V.O.P.S -> 0.00
+
+USER -> ANWER SAYEED
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 10.42 %
+T.V.O.P.S -> 0.00
+
+USER -> TILAKRAJ NARAYANAN
+N.O.T.J -> 1
+N.O.T.L -> 0
+% D.P -> 0.00 %
+T.V.O.P.S -> 0.00
